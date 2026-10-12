@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <div className="compact-hero-media">
             <img
-              src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1000&auto=format&fit=crop&q=80"
+              src="https://unsplash.com/photos/assorted-color-shirt-lot-hang-on-rack-xXJ6utyoSw0"
               alt="Fashion Cube Collection"
               className="compact-hero-img"
             />
