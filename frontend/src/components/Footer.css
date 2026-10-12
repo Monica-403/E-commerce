@@ -1,0 +1,179 @@
+/* ==========================================================
+   FOOTER STYLES
+   ========================================================== */
+
+.footer-section {
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-gray-200);
+  margin-top: 60px;
+}
+
+.footer-benefits-bar {
+  background-color: var(--color-gray-50);
+  border-bottom: 1px solid var(--color-gray-200);
+  padding: 30px 0;
+}
+
+.footer-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.benefit-icon {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.benefit-item h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.benefit-item p {
+  font-size: 0.82rem;
+  color: var(--color-gray-500);
+}
+
+.footer-main {
+  padding: 50px 20px 24px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.footer-desc {
+  font-size: 0.88rem;
+  color: var(--color-gray-600);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.brand-trust-badge,
+.project-badge {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 8px 14px;
+  background-color: var(--color-gray-100);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--color-accent);
+}
+
+.brand-trust-badge span,
+.project-badge span {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-gray-900);
+}
+
+.brand-trust-badge small,
+.project-badge small {
+  font-size: 0.72rem;
+  color: var(--color-gray-500);
+}
+
+.footer-heading {
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 18px;
+  color: var(--color-black);
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links li a {
+  font-size: 0.86rem;
+  color: var(--color-gray-600);
+  transition: color var(--transition-fast);
+}
+
+.footer-links li a:hover {
+  color: var(--color-accent);
+  padding-left: 3px;
+}
+
+.newsletter-text {
+  font-size: 0.86rem;
+  color: var(--color-gray-600);
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 8px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.newsletter-form input:focus {
+  border-color: var(--color-black);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-gray-200);
+  font-size: 0.82rem;
+  color: var(--color-gray-500);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-tags {
+  display: flex;
+  gap: 8px;
+  color: var(--color-gray-400);
+  font-size: 0.78rem;
+}
+
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
