@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import ProductList from '../components/ProductList';
+import heroShirts from '../assets/hero-shirts.jpg';
 import './Home.css';
 
 export default function Home() {
@@ -81,9 +82,13 @@ export default function Home() {
           </div>
           <div className="compact-hero-media">
             <img
-              src="https://unsplash.com/photos/assorted-color-shirt-lot-hang-on-rack-xXJ6utyoSw0"
+              src={heroShirts}
               alt="Fashion Cube Collection"
               className="compact-hero-img"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = 'https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=1200&auto=format&fit=crop&q=80';
+              }}
             />
           </div>
         </div>
