@@ -50,7 +50,7 @@ export default function Home() {
     {
       name: 'Kids',
       title: "Kids' Collection",
-      image: 'https://images.unsplash.com/photo-1503944547408-b6559a442358?w=800&auto=format&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80',
       link: '/shop?dept=Kids',
     },
   ];

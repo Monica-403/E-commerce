@@ -93,8 +93,7 @@ INSERT INTO products (name, description, price, image, color, size, category, de
 -- KIDS
 ('Kids Cozy Fleece Sweatshirt', 'Super-soft brushed cotton fleece pullover with cheerful graphic lettering and elastic ribbing.', 999.00, 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80', 'Pastel Pink', '4Y, 6Y, 8Y, 10Y', 'Girl', 'Kids', 32),
 ('Kids Floral Skater Dress', 'Breezy everyday dress with vibrant floral botanical prints and flared tiered silhouette.', 1199.00, 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=800&auto=format&fit=crop&q=80', 'Floral Yellow', '3Y, 5Y, 7Y, 9Y', 'Girl', 'Kids', 20),
-('Kids Quilted Bomber Jacket', 'Insulated zip-up flight bomber jacket with contrast orange lining and snug ribbed collar.', 1499.00, 'https://images.unsplash.com/photo-1503944547408-b6559a442358?w=800&auto=format&fit=crop&q=80', 'Navy Blue', '5Y, 7Y, 9Y, 11Y', 'Boy', 'Kids', 25),
-('Kids Sporty Colorblock Hoodie', 'Casual sporty hoodie featuring bold contrast colorblocking and roomy front pouch pocket.', 899.00, 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=800&auto=format&fit=crop&q=80', 'Teal & Grey', '4Y, 6Y, 8Y, 10Y', 'Boy', 'Kids', 35);
+('Kids Quilted Bomber Jacket', 'Insulated zip-up flight bomber jacket with contrast orange lining and snug ribbed collar.', 1499.00, 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80', 'Navy Blue', '5Y, 7Y, 9Y, 11Y', 'Boy', 'Kids', 25),('Kids Sporty Colorblock Hoodie', 'Casual sporty hoodie featuring bold contrast colorblocking and roomy front pouch pocket.', 899.00, 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=800&auto=format&fit=crop&q=80', 'Teal & Grey', '4Y, 6Y, 8Y, 10Y', 'Boy', 'Kids', 35);
 
 -- Sample Initial Order
 INSERT INTO orders (customer_name, email, phone, address, total, status) VALUES

@@ -190,7 +190,7 @@ let fallbackProducts = [
     name: 'Kids Quilted Bomber Jacket',
     description: 'Insulated zip-up flight bomber jacket with contrast orange lining and snug ribbed collar.',
     price: 1499.00,
-    image: 'https://images.unsplash.com/photo-1503944547408-b6559a442358?w=800&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&auto=format&fit=crop&q=80',
     color: 'Navy Blue',
     size: '5Y, 7Y, 9Y, 11Y',
     category: 'Boy',
